@@ -1,3 +1,4 @@
+--here's a change for practicing merge conflicts by sgb
 with customer_orders as (
     select
         customer_id,
@@ -20,4 +21,8 @@ from `analytics-engineers-club.coffee_shop.customers` customers
 order by first_order_at asc
 limit 5
 
+<<<<<<< HEAD
+-- CONFLICT -- WATCHOUT!
+=======
 -- random comment to create a merge conflict -svm
+>>>>>>> master
