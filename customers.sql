@@ -1,4 +1,5 @@
 --here's a change for practicing merge conflicts by sgb
+--new change from jp
 with customer_orders as (
     select
         customer_id,
